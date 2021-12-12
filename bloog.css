@@ -1,0 +1,114 @@
+body {
+    background-color: #9A9A9A;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h4 {
+    margin: 0px;
+    text-align: center;
+}
+
+.header, .card {
+    background-color: #FFFFFF;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+
+}
+
+.container {
+    display: flex;
+}
+
+.leftcontent {
+    padding: 5px;
+    width: calc(70% - 10px);
+    float: left;
+}
+
+.rightcontent {
+    padding: 5px;
+    width: calc(30% - 10px);
+    float: right;
+}
+
+.card {
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.right-sticky {
+    position: sticky;
+    top: 40px;
+}
+p{
+    font-size: large;
+}
+
+ul{
+    list-style: none;
+    margin: 10px;
+
+}
+
+a{
+    
+    padding: 12px ;
+    background-color: #5c5c5c;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: left;
+    
+  
+
+}
+li{
+    margin: 30px;
+    text-align: left;
+}
+
+#us{
+    background-color: #FFFFFF;
+    padding: 5px;
+    width: calc(30% - 10px);
+    float: right;
+    height: 400px;  
+    text-align: center; 
+}
+button
+{
+    float: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    border: 2px sandybrown;
+    
+}
+#us>img{
+    width: 200px;
+    height: 200px;
+}
+#us>ul{
+    display: inline;
+}
+.card>img{
+    border-radius: 30%;
+}
+#us
+{
+    font-size: large;
+}
+
+
+
